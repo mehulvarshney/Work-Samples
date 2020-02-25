@@ -1,0 +1,133 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+* {
+    box-sizing:-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.brandcolor{
+    color: rgb(254, 103, 96);
+}
+.brand{
+    font-weight: 600;
+    font-size: larger;
+    color:white;
+}
+.mynavlink {
+    color: rgb(218, 218, 218);
+}
+
+.mynavlink:hover {
+    color: rgb(254, 103, 96);
+    text-decoration: none;
+}
+
+.activelink {
+    color: rgb(254, 103, 96);
+}
+
+.mainicon {
+    font-size: 40px;
+}
+
+.mainbgcolor {
+    background-color: rgb(248, 248, 248);
+}
+
+.webartsection {
+    background-color: rgb(42, 42, 42);
+}
+
+.webartheading {
+    color: rgb(218, 218, 218);
+    font-family: 'Lemonada', cursive;
+}
+
+.webartpara {
+    font-size: 30px;
+}
+
+h1>span {
+    font-weight: 700;
+}
+
+.mybtn {
+    background-color: rgb(254, 103, 96);
+    border: 2px solid rgb(250, 103, 60);
+    color: white;
+}
+
+.mybtn:hover {
+    background-color: rgb(236, 6, 0);
+    transition: 0.3s;
+    color: white;
+}
+
+.footerbgcolor {
+    background-color: rgb(49, 49, 49);
+    color: rgb(205, 205, 205);
+    font-size: small
+}
+
+.ftrheading {
+    color: rgb(205, 205, 205);
+    margin-bottom: 0%;
+}
+
+.footerbgcolor2 {
+    background-color: rgb(45, 45, 45);
+    color: rgb(205, 205, 205);
+    font-size: small
+}
+
+.ftricon {
+    color: rgb(254, 103, 96);
+}
+
+.fblink {
+    background-color: rgb(59, 89, 153);
+}
+
+.fblink:hover{
+    color: rgb(59, 89, 153);
+}
+
+.ptlink {
+    background-color: rgb(205, 1, 0);
+}
+.ptlink:hover{
+    color:rgb(205, 1, 0)
+}
+
+.twlink {
+    background-color: rgb(85, 172, 238);
+}
+.twlink:hover{
+    color: rgb(85, 172, 238);
+}
+
+.glink {
+    background-color: rgb(221, 77, 66);
+}
+.glink:hover{
+    color: rgb(221, 77, 66);
+}
+
+.walink {
+    background-color: rgb(0, 230, 118);
+
+}
+.walink:hover{
+    color: rgb(0, 230, 118);
+}
+.uk-icon-button{
+    zoom:0.7;
+    color: white;
+}
+.animated{
+    animation-duration: 3s;
+}

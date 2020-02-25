@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+.maincolor {
+    color: rgb(75, 104, 136);
+  }
+
+  .mybrand {
+    font-size:x-large;
+    color: rgb(75, 104, 136);
+  }
+
+  .mylink {
+    color: rgb(75, 104, 136);
+  }
+
+  .mylink:hover {
+    color: rgb(18, 121, 190);
+  }
+
+  .myactivelink {
+    color: rgb(18, 121, 190);
+  }
+
+  .mybtn {
+    background-color: rgb(0, 187, 156);
+    color: rgb(250, 250, 250);
+  }
+
+  .mybtn:hover {
+    background-color: rgb(0, 170, 140);
+  }
+
+  h2 {
+    color: rgb(75, 104, 136);
+  }
+
+  .carouselbtn {
+    font-size: larger;
+    font-weight: 500;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    bottom: 25%;
+  }
+
+  .iconcolor {
+    color: rgb(70, 180, 145);
+    font-size: 30px;
+  }
+
+  .cardheading {
+    color: rgb(75, 104, 136);
+  }
+
+  .footerbgcolor {
+    background-color: rgb(47, 64, 82);
+    color: rgb(220, 220, 220);
+  }
+
+  .footerbgcolor2 {
+    background-color: rgb(41, 54, 70);
+    color: rgb(220, 220, 220);
+  }
+
+  .footericonlink {
+    color: rgb(220, 220, 220);
+    font-size: 20px;
+  }
+  .footerfont{
+    font-size:small;
+  }
+  .footericonlink:hover {
+    color: rgb(0, 187, 156);
+    transition: 0.5s;
+  }
+  footer>section>div>a{
+    text-decoration:none;
+    color: rgb(220, 220, 220);
+  }
+  footer>section>div>a:hover{
+    text-decoration:none;
+    color: rgb(0, 187, 156);
+  }
+  input[type=text] {
+    width: 60%;
+    padding-left: 3%;
+  }
+  .animated{
+    animation-duration: 3s;
+  }
+  .subs{
+    animation-iteration-count: 3;
+  }

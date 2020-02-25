@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  strong {
+    font-size: x-large;
+  }
+
+  .navfont {
+    font-weight: 600;
+  }
+
+  .navsearch {
+    color: rgb(229, 229, 229);
+    border: rgb(229, 229, 229) solid;
+  }
+
+  .navsearch:hover {
+    background-color: rgb(229, 229, 229);
+    color: rgb(60, 60, 60);
+  }
+
+  .bgcolor229 {
+    background-color: rgb(229, 229, 229);
+  }
+  .color229{
+    color:rgb(229, 229, 229);
+  }
+  .carouselbtn {
+    background-color: rgb(0, 166, 151);
+    color: black;
+    font-weight: 500;
+  }
+
+  .carouselbtn:hover {
+    color: rgb(229, 229, 229);
+  }
+
+  .carousel-caption {
+    position: absolute;
+    bottom: 22%;
+  }
+  .mainbgcolor{
+    background-color: whitesmoke;
+  }
+  .main1iconparent {
+    background-color: rgb(0, 166, 151);
+  }
+  .main1icon {
+    font-size: 40px;
+    color: rgb(229, 229, 229);
+    padding: 10px;
+
+  }
+
+  .main1iconlink:hover {
+    color: rgb(60, 60, 60);
+    transition: 0.5s;
+  }
+
+  .bgcolor60 {
+    background-color: rgb(60, 60, 60);
+  }
+
+  .overlay {
+    background-image: url("../images/pic4.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(40, 40, 40, 0.7);
+    color: rgb(229, 229, 229);
+    padding: 3% 5% 3% 5%;
+  }
+
+  .overlay>h2 h3 {
+    font-weight: 700;
+  }
+
+  .overlay>h3 {
+    color: rgb(48, 186, 165);
+  }
+
+  .whitebar {
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 1px;
+    ;
+    width: 96%;
+  }
+
+  .maindivhr {
+    border: 1px solid rgb(229, 229, 229);
+    width: 22%;
+    border-radius: 1px;
+  }
+
+  .maindivround3 {
+    border: 2px solid rgb(229, 229, 229);
+    border-radius: 2px;
+    margin: 1%;
+  }
+
+  .maindivround2 {
+    border: 3px solid rgb(229, 229, 229);
+    border-radius: 3px;
+    margin: 1.5%;
+  }
+
+  .maindivround {
+    border: 5px solid rgb(229, 229, 229);
+    border-radius: 5px;
+    margin: 2%;
+  }
+
+  .fontcolor229 {
+    color: rgb(229, 229, 229);
+  }
+
+  .iconcontainer {
+    height: 50px;
+    width: 100%;
+  }
+
+  .linkicon {
+    color: rgb(229, 229, 229);
+    font-size: 30px;
+  }
+
+  .linkicon:hover {
+    color: rgb(0, 166, 151);
+    font-size: 35px;
+    transition: 0.5s;
+  }
+
+  .footeraddress {
+    color: rgb(229, 229, 229);
+    font-size: 15px;
+  }
+
+  .footerlink {
+    color: rgb(229, 229, 229);
+    font-size: 14px;
+  }
+
+  .footerlink:hover {
+    color: rgb(0, 166, 151)
+  }
+
+  .socialicon {
+    color: rgb(229, 229, 229);
+    font-size: 25px;
+    padding: 2%;
+  }
+
+  .socialicon:hover {
+    color: rgb(0, 166, 151);
+    transition: 0.3s;
+  }
+
+
+  /*- Screen Sizes*/
+  /*import fonts*/
+
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+  @import url("https://fonts.googleapis.com/css?family=Oswald");
+
+  /*media queries*/
+  .wrapper {
+    margin: 3.125em auto;
+    padding: 1em 5em 1em;
+    max-width: 1000px;
+  }
+
+
+  /* - &:nth-child(1) {
+           grid-area: entry1;
+       }
+ - useful timesaver if there is a lengthy list
+*/
+  .timeline {
+    line-height: 1.5em;
+    font-size: 14px;
+    transition: all .4s ease;
+    position: relative;
+    counter-reset: section;
+  }
+
+  .timeline:before {
+    content: "";
+    width: 10px;
+    height: 100%;
+    background: #87ceeb;
+    position: absolute;
+    top: 0;
+    left: -3.313em;
+    border-radius: 40px 40px;
+  }
+
+  .timeline--entry {
+    position: relative;
+    background-color: #eeeeee;
+  }
+
+  .timeline--entry__title {
+    color: rgb(229, 229, 229);
+    background-color: rgb(0, 166, 151);
+    font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 1em;
+  }
+
+  .timeline--entry__title:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    left: -1em;
+    border-right: 10px solid rgb(0, 166, 151);
+  }
+
+  .timeline--entry__detail {
+    background-color: #dddddd;
+    padding: 1em;
+    margin: 0;
+  }
+
+  .timeline--entry:before {
+    content: "";
+    font-family: "Oswald", Georgia, Cambria, "Times New Roman", Times, serif;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3em;
+    height: 3em;
+    background-color: rgb(50, 50, 50);
+    border: .2em solid white;
+    border-radius: 50%;
+    position: absolute;
+    counter-increment: section;
+    content: counter(section);
+    text-shadow: 0 1px 0 #424242;
+    left: -4.5em;
+  }
+
+  @supports (display: grid) {
+    @media (min-width: 768px) {
+      .timeline {
+        display: grid;
+        grid-gap: 4.75em;
+        grid-template-areas: ".  entry1""entry2  ."". entry3""entry4 ."". entry5";
+      }
+
+      .timeline:before {
+        left: 49.5%;
+      }
+
+      .timeline--entry:nth-child(1) {
+        grid-area: entry1;
+      }
+
+      .timeline--entry:nth-child(2) {
+        grid-area: entry2;
+      }
+
+      .timeline--entry:nth-child(3) {
+        grid-area: entry3;
+      }
+
+      .timeline--entry:nth-child(4) {
+        grid-area: entry4;
+      }
+
+      .timeline--entry:nth-child(5) {
+        grid-area: entry5;
+      }
+
+      .timeline--entry:nth-of-type(odd):before {
+        left: -3.8em;
+      }
+
+      .timeline--entry:nth-of-type(even):not(:nth-of-type(odd)) .timeline--entry__title:before {
+        left: 100%;
+        border-left: 10px solid rgb(0, 166, 151);
+        border-right: 0;
+      }
+
+      .timeline--entry:nth-of-type(even):before {
+        left: 103%;
+      }
+    }
+  }
+
+  .tlfont {
+    font-size: x-large;
+    margin-right: 2%;
+  }
+
+  .tlheading {
+    color: rgb(0, 166, 151);
+
+  }
+
+  .divhr {
+    width: 15vw;
+    border: 1px solid rgb(60, 60, 60);
+    border-radius: 1px;
+    height: 1px;
+  }
+
+  .divround {
+    border: 5px solid rgb(60, 60, 60);
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .carouselfontcolor {
+    color: rgb(229, 229, 229);
+  }
