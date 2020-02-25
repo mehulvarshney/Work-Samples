@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .mainbgcolor {
+    background-color: rgb(166, 88, 127);
+  }
+
+  .fontcolor {
+    color: rgb(166, 88, 127);
+  }
+
+  .mainbgcolor2 {
+    background-color: rgb(244, 244, 244);
+
+  }
+
+  .mainfontcolor {
+    color: rgb(248, 217, 239);
+  }
+
+  .navlinkfont {
+    color: rgb(248, 217, 239);
+  }
+
+  .navlinkfont:hover {
+    color: rgb(248, 217, 239);
+    background-color: rgb(139, 75, 109);
+    box-shadow: 0 4px 2px -2px rgb(124, 59, 93);
+  }
+
+  .navactive {
+    background-color: rgb(139, 75, 109);
+    box-shadow: 0 4px 2px -2px rgb(124, 59, 93);
+  }
+
+  .carousel-caption {
+    position: absolute;
+    bottom: 15%;
+  }
+
+  .jumbotronbgcolor {
+    background-color: rgb(236, 236, 236);
+  }
+
+  .cardicons {
+    color: rgb(166, 88, 127);
+    font-size: 40px;
+
+  }
+
+  .footerlink {
+    color: rgb(248, 217, 239);
+    font-weight: 500;
+  }
+
+  .footerlink:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.25s;
+  }
+
+  .fimageborder {
+    border: 10px solid rgb(139, 75, 109);
+  }
+
+
+  .footerbgcolor {
+    background-color: rgb(139, 75, 109);
+  }
+
+  .footerfontsize {
+    font-size: small;
+  }
+
+  .footericon {
+    color: rgb(248, 217, 239);
+    font-size: x-large;
+  }
+
+  .footericon:hover {
+    transition: 0.25s;
+    color: black;
+  }

@@ -1,0 +1,110 @@
+*{
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html,body{
+    padding:0%;
+    margin:0%;
+}
+.landingfont{
+    font-size: 30px;
+    font-weight: lighter;
+    color:whitesmoke
+}
+.mainbgcolor{
+    background-color:rgb(119, 37, 190);
+}
+.dropdown-item{
+    color:rgb(119, 37, 190);
+}
+.whitefont{
+    color:whitesmoke;
+}
+.shadow:hover{
+    box-shadow:10px 3px rgb(91, 12, 164);
+}
+input[type="search"]{
+    color:whitesmoke;
+}
+.whitefont>div>button{
+    background-color:whitesmoke;
+    color:rgb(119, 37, 190);
+    font-weight: 600;
+}
+.mybtn{
+    background-color:rgb(119, 37, 190);
+    border: 1px solid rgb(91, 12, 164);
+    color:whitesmoke;
+}
+.mybtn:hover{
+    background-color:rgb(91, 12, 164);
+    color:whitesmoke;
+    border: 1px solid rgb(91, 12, 164);
+}
+.mybtn2{
+    background-color:whitesmoke;
+    color:rgb(91, 12, 164);
+}
+.mybtn2:hover{
+    background-color:whitesmoke;
+    color:rgb(91, 12, 164);
+}
+.panlink>a{
+    color: rgb(119, 37, 190);
+    text-decoration:none;
+    display:inline-block;
+    height:40px;
+    width:40px;
+    margin:2%;
+    text-align: center;
+    padding-top:7px;
+    
+}
+#panlinkact{
+    background-color: rgb(119, 37, 190);
+    display:inline-block;
+    text-align: center;
+    height: 40px;
+    width:40px;
+    border-radius:30px;
+    text-decoration:none;
+    color:whitesmoke;
+}
+.panlink>a:hover{
+    transition: 0.5s;
+    background-color: rgb(119, 37, 190);
+    display:inline-block;
+    text-align: center;
+    height: 40px;
+    width:40px;
+    border-radius:40px;
+    text-decoration:none;
+    color:whitesmoke;
+}
+small>a{
+    text-decoration: none;
+    color:rgb(119, 37, 190);
+}
+small>a:hover{
+    text-decoration: none;
+    font-size:14px;
+    color:rgb(119, 37, 190);
+    transition:0.5s;
+}
+.icon{
+    font-size:20px;
+    padding-top:2px;
+}
+.icon:hover{
+    color:whitesmoke;
+    font-size:20px;
+    padding-top:2px;
+}
+.mv{
+    text-decoration:none;
+    color:black;
+}
+.mv:hover{
+    text-decoration: none;
+    color:rgb(119, 37, 190);
+}

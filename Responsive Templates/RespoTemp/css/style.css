@@ -1,0 +1,125 @@
+.mainbgcolor {
+    background-color: rgb(1, 220, 145);
+  }
+  .mainfontcolor {
+    color: rgb(242, 242, 242)
+  }
+.navbgcolor {
+    background-color: rgb(77, 151, 162);
+  }
+
+  .navbrand {
+    color: rgb(197, 218, 224);
+    font-size: x-large;
+    font-weight: 600;
+  }
+  .navbrand:hover{
+    text-decoration:none;
+    color:rgb(197, 218, 224);
+  }
+
+  .navlinks {
+    color: rgb(197, 218, 224);
+    font-weight: 600;
+  }
+
+  .navlinks:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  .navtogg {
+    background-color: rgb(197, 218, 224);
+    color: black;
+  }
+
+  .carfont {
+    font-size: larger;
+  }
+
+  .iconparent {
+    height: 60px;
+  }
+
+  .icon {
+    color: rgb(77, 151, 162);
+    font-size:40px;
+  }
+
+  .icon:hover {
+    color: rgb(69, 69, 69);
+    transition: 0.5s;
+  }
+
+  .mghead {
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgb(242, 242, 242)
+  }
+
+  .gateshead {
+    color: rgb(87, 225, 175);
+    font-size: 80px;
+  }
+
+  .formbox {
+    line-height: 8px;
+    padding: 5%;
+  }
+
+  .formbtn {
+    color: rgb(87, 218, 166);
+    font-size: 40px;
+  }
+
+  .formbtn:hover {
+    font-size: 50px;
+    color: rgb(69, 69, 69);
+    transition: 0.35s;
+  }
+
+  .outerdiv{
+  position: relative;
+  background-image: url("images/google-map-background");
+  background-position: center;
+  background-size: cover;
+}
+.innerdiv{
+  position: absolute;
+  background-color: rgba(252, 252, 252, 0.9);
+  color:black;
+  text-align: center;
+  padding: 3%;
+}
+input{
+  width:280px;
+  border:none;
+}
+.message{
+  height:80px;
+}
+.formicon{
+    color:rgb(1, 208, 138);
+    font-size: 45px;
+}
+  .ftr {
+    background-color: rgb(1, 208, 138);
+    color: rgb(232, 232, 232)
+  }
+  .ftricon {
+    color: rgb(77, 151, 162);
+    font-size:30px;
+  }
+
+  .ftricon:hover {
+    color: rgb(69, 69, 69);
+    transition: 0.5s;
+  }
+  .mvlink:hover {
+    text-decoration: none;
+    color:rgb(69, 69, 69);
+  }
+  .carousel-caption {
+    position: absolute;
+    bottom: 15%;
+  }
