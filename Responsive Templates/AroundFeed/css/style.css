@@ -1,0 +1,188 @@
+.mainbgcolor{
+    background-color:rgb(31, 166, 122)
+}
+p{
+    color:rgb(107, 107, 107);
+    text-align: justify;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.lw2{
+    line-height:1;
+}
+/*-------------------- NAVBAR --------------------*/
+
+.navbar{
+    background-color: rgb(31, 166, 122) !important;
+}
+.navbar-brand{
+    color:white !important;
+    font-weight: 600;
+}
+.active >a{
+    color:white !important;
+    background-color: rgb(31, 166, 122);
+}
+.nav-link{
+    color: rgb(221, 221, 221) !important;
+}
+
+.fa-shopping-cart{
+    color: rgb(221, 221, 221) !important;
+}
+.fa-shopping-cart:hover{
+    color: white !important;
+}
+.nav-item:hover >a{
+    color:white !important;
+}
+.navdditem:hover{
+    background-color: rgb(31, 166, 122);
+    color: white;
+}
+
+/* ---------------------CAROUSEL------------------- */
+.carousel-caption{
+    position:absolute;
+    left:5%;
+    bottom:10%;
+}
+.carousellinkhead{
+    background-color: rgba(31, 166, 122,0.8);
+    color:white;
+    font-size:30px;
+}
+.carousellinkcontent{
+    background-color: rgba(49, 50, 51,0.8);
+    color:white;
+    font-size:15px;
+    width:600px;
+    height:25vh;
+}
+/*-------------------- MAINSECTION------------------ */
+.fas,.far{
+    color:rgb(31, 166, 122);
+}
+.mainsmlink{
+    color:rgb(60, 60, 60);
+    font-size: small;
+}
+.mainsmlink:hover{
+    text-decoration:none;
+    color:rgb(20, 20, 20);
+}
+.mainbtn{
+    color:rgb(31, 166, 122);
+}
+.mainbtn:hover{
+    color:white !important;
+    background-color:rgb(31, 166, 122);
+}
+.opbtn{
+    background-color: rgb(60, 60, 60);
+    color:white;
+}
+.opbtn:hover{
+    background-color: rgba(31, 166, 122,0.8);
+    color:white;
+}
+/* -------------SIDE SECTION------------------------- */
+.fa-search{
+    color:white;
+    background-color: rgb(31, 166, 122);
+    padding:45%;
+    border-radius: 0px 3px 3px 0px;
+
+}
+input[type=text]
+.td:hover{
+    text-decoration:none;
+}
+.mainbgcolor div h3{
+    color:white;
+}
+.downloadbtn{
+    background-color:transparent;
+    border:2px solid white;
+    color:white;
+    font-size: larger;
+    font-weight: 400;
+}
+.downloadbtn:hover{
+    background-color:white;
+    color:rgb(31, 166, 122);
+}
+.sideimg{
+    float:left;
+    height:66px;
+    width:66px;
+    padding:8%;
+}
+.sidelink{
+    color:rgb(31, 166, 122);
+}
+.sidelink:hover{
+    text-decoration:none;
+    color:rgb(60, 60, 60);
+}
+.sidemainlink{
+    color:rgb(31, 166, 122);
+}
+.sidemainlink:hover{
+    text-decoration: none;
+    background-color:rgb(238, 238, 238);
+    color:rgb(60, 60, 60);
+}
+.commenticon{
+    font-size:30px;
+}
+.commenticon2{
+    color:rgb(31, 166, 122);
+    font-size:25px;
+    }
+.recentcommenticon{
+    color:rgb(31, 166, 122);
+    font-size:20px;
+}
+/*---------------- -----------------------Footer ------------------------------*/
+.ftrbgcolor{
+    background-color: rgb(49, 50, 51);
+    color: rgb(204, 204, 204);
+}
+.ftrbgcolor h4 {
+    color:rgb(204, 204, 204);
+}
+.ftrlink{
+    color:rgb(204, 204, 204);
+    font-size: small;
+}
+.ftrlink:hover{
+    color: rgb(221, 221, 221);
+}
+footer .dropdown-divider{
+    opacity:0.1;
+}
+.woolink{
+    color:rgb(204, 204, 204);
+    font-size: 14px;
+    font-weight:600;
+}
+.woolink:hover{
+    color: rgb(221, 221, 221);
+}
+.fa-star, .fa-star-half-alt, .fa-pound-sign{
+    color: rgb(221, 221, 221);
+    font-size: 12px;
+}
+h1{
+    color:white !important;
+}
+.ftrbg2{
+    background-color: rgb(31, 31, 31);
+    color:rgb(221, 221, 221);
+}
+.ftrlastfont{
+    color:rgb(170, 170, 170);
+    font-size:small;
+}
