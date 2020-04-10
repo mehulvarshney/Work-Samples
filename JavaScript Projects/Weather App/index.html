@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App by Mehul Varshney</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/Apps-Weather-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="head">
+            <i class="fas fa-sun"></i><h2> Weather</h2><i class="fas fa-cloud-moon"></i>
+        </div>
+        <div class="input">
+            <input type="text" id="input"  placeholder="Enter city,state or the country name..." autofocus>
+        </div>
+        <div class="weather-container">
+            <div class="message">
+                <p id="erroricon"></p>
+                <p id="message">Welcome, Enter valid city, state <br> or the Country name to get weather details.</p>
+            </div>
+            <div>
+                <div class="float">
+                    <div class="tempdiv">
+                        <p id="temperature">Temp</p>
+                        <p id="max-min">max-min</p>
+
+                    </div>
+                    <div class="imgdiv">
+                        <img src="" id="icon" alt="weather-icon" height="150px" weight="150px">
+                    </div>
+                </div>
+                <p id="weather">weathr</p>
+                <p id="city">City</p>
+                <p id="date">Date</p>
+            </div>
+    
+            <div class="hum_vis">
+                <p id="humidity">Humidity</p>
+                <p id="windspeed">Windspeed</p>
+            </div>
+        </div>
+        <div class="link">
+            <small><a href="https://www.linkedin.com/in/mehul-varshney-2571b3180">Mehul Varshney</a></small>
+        </div>
+
+    </div>
+
+
+    <script src="js.js">
+    </script>
+</body>
+
+</html>

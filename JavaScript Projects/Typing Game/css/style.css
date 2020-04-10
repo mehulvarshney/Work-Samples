@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:spance around;
+    margin:0px;
+    height:100vh;
+    background-color:#1E0555;
+}
+.timer{
+    color:#F0DB4F;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom:20px;
+    font-family: 'Spicy Rice', cursive;
+}
+h2{
+    color:#F0DB4F;
+    font-size: 40px;
+    font-family: 'Spicy Rice', cursive;
+    text-decoration: underline;
+}
+.container{
+    background-color: #F0DB4F;
+    padding:3% 5% 3% 5%;
+    border-radius:5%;
+    width:600px;
+    max-width:80%;
+}
+.quote{
+    margin:3%;
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.inputtext{
+    height: 150px;
+    width:100%;
+    padding:4%;
+    background-color:transparent;
+    border: 2px solid #A1922E;
+    outline: none;
+    resize: none;
+    border-radius: 5%;
+    font-size: 17px;
+}
+.inputtext:focus{
+    border-color:black;
+}
+.inputtext::placeholder{
+    text-align: center;
+    color: grey;
+    font-size: 24px;
+}
+.message{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 10px 0px 0px 0px;
+
+}
+.correct{
+    color:green;
+    font-family: 'Merienda', cursive;
+}
+.incorrect{
+    color:red;
+    text-decoration: underline;
+}
