@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin:0px;
+    padding:0px;
+}
+
+body{font-family: 'Montserrat', ;background-color:grey;}
+
+header{
+    width:100%;
+    height:80px;
+    border-radius:0px 0px 15px 15px;
+    background-color:rgb(40, 184, 153);
+    box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.8);
+    position:static;
+    padding:15px 30px 15px 30px;
+}
+
+header>input{
+    height:50px;
+    width:100%;
+    border-radius:10px 30px 30px 10px;
+    border:none;
+    background-color: rgb(90, 200, 174);
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding:0px 70px 0px 25px;
+    outline: none;
+
+}
+input::placeholder{
+    color:white;
+    opacity: 0.75;
+    text-align: center;
+    font-size:large;
+}
+#addbutton{
+    position:absolute;
+    right:30px;
+    top:15px;
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+    border:none;
+    background-color:white;
+    padding:0px;
+    cursor: pointer;
+}
+.fa-plus-circle{
+    transition: 0.5s;
+}
+.fa-plus-circle:hover{
+    transition: 0.5s;
+    transform:rotate(90deg);
+    font-size: xx-large;
+}
+.fa-plus-circle{
+    font-size:20px;
+    color:rgb(40, 184, 153);
+}
+
+/* MAIN */
+.container{
+    padding:0px 25px 0px 25px;
+}
+.todo{
+    list-style: none;
+    padding-left: 0px;
+}
+.todo>li{
+    height:50px;
+    width:100%;
+    background-color: white;
+    border-radius:5px;
+    box-shadow: 0px 1px 2px rgba(44, 62, 80, 0.40);
+    margin-bottom: 15px;
+    padding:15px;
+    position: relative;
+}
+.todo>li:last-of-type{
+    margin-bottom: 0px;
+}
+.todo > li .buttons{
+    height:50px;
+    width:100px;
+    position: absolute;
+    top:0%;
+    right:0%;
+}
+.todo > li>.buttons>button{
+    float:left;
+    height:50px;
+    width:50px;
+    background-color:white;
+    border:none;
+    border-radius:0px 5px 5px 0px;
+    outline:none;
+    position:relative;
+    cursor: pointer;
+}
+
+.far{
+    font-size:larger;
+}
+
+.todo > li>.buttons>button:first-of-type{
+    color:rgba(44, 62, 80, 0.60);
+    transition: 0.5s;
+}
+.todo > li>.buttons>button:first-of-type:hover{
+    color:red;
+    transition: 0.3s;
+    font-size: large;
+}
+.todo > li>.buttons>button:last-of-type{
+    color:rgb(40, 184, 153);
+    transition: 0.5s;
+}
+
+.todo > li>.buttons>button:last-of-type:hover>i{
+    background-color:rgb(40, 184, 153);
+    color:white;
+    border-radius: 15px;
+    border:none;
+    transition: 0.3s;
+    font-size: x-large;
+}
+.completeicon{
+    background-color:rgb(40, 184, 153);
+    color:white;
+    border-radius: 10px;
+    border:none;
+    transition: 0.5s;
+}
+.divider{
+    height:2px;
+    width:60%;
+    background-color:rgb(160,160,160);
+    border-radius: 2px;
+    margin: auto;
+}
+.dnone{
+    display:none;
+}
+p{
+    color:whitesmoke;
+    font-size: x-large;
+    text-align: center;
+}
+

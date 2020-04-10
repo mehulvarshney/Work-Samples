@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO list</title>
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <input type="text" id="inputitem" placeholder="Enter what you want to do">
+        <button id="addbutton"><i class="fas fa-plus-circle"></i></button>
+    </header>
+
+    <main>
+
+        <!-- Incompleted -->
+        <p id="incompletepara"></p>
+        <div class="container">
+            <ul class="todo" id="incompleted"></ul>
+        </div><br>
+
+        <div id="divide"></div>
+
+        <p id="completepara">Tasks Completed</p>
+        <!-- Completed -->
+        <div class="container">
+            <ul id="completed" class="todo"></ul>
+        </div>
+    </main>
+    <script src="js.js"></script>
+</body>
+</html>
