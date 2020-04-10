@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-Editor by Mehul Varshney</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h3>Text Editor:</h3>
+    <div class="container">
+        <div class="button-container">
+            <button onclick="exeCmd('bold')" title="bold"><i class="fas fa-bold"></i></button>
+            <button onclick="exeCmd('italic')" title="italic"><i class="fas fa-italic"></i></button>
+            <button onclick="exeCmd('underline')" title="underline"><i class="fas fa-underline"></i></button>
+
+            <button onclick="exeCmd('justifyLeft');" title="Text align left"><i class="fas fa-align-left"></i></button>
+            <button onclick="exeCmd('justifyCenter');" title="Text align right"><i
+                    class="fas fa-align-center"></i></button>
+            <button onclick="exeCmd('justifyRight');" title="Text align right"><i
+                    class="fas fa-align-right"></i></button>
+            <button onclick="exeCmd('justifyFull');" title="Text justify"><i class="fas fa-align-justify"></i></button>
+
+            <button onclick="exeCmd('strikeThrough')" title="StrikeThrough"><i
+                    class="fas fa-strikethrough"></i></button>
+            <button onclick="exeCmd('cut');" title="cut"><i class="fas fa-cut"></i></button>
+            <button onclick="exeCmd('copy');" title="copy"><i class="fas fa-copy"></i></button>
+            <button onclick="exeCmd('paste');" title="paste"><i class="fas fa-paste"></i></button>
+
+            <button onclick="exeCmd('indent');" title="indent"><i class="fas fa-indent"></i></button>
+            <button onclick="exeCmd('outdent');" title="outdent"><i class="fas fa-outdent"></i></button>
+            <button onclick="exeCmd('subscript');" title="subscript"><i class="fas fa-subscript"></i></button>
+            <button onclick="exeCmd('superscript');" title="superscript"><i class="fas fa-superscript"></i></button>
+            <button onclick="exeCmd('undo');" title="Undo"><i class="fas fa-undo"></i></button>
+            <button onclick="exeCmd('redo');" title="Redo"><i class="fas fa-redo"></i></button>
+            <button onclick="exeCmd('insertUnorderedList');" title="Unordered List"><i
+                    class="fas fa-list-ul"></i></button>
+            <button onclick="exeCmd('insertOrderedList');" title="Ordered List"><i class="fas fa-list-ol"></i></button>
+            <button onclick="exeCmd('insertParagraph');" title="Paragraph"><i class="fas fa-paragraph"></i></button>
+            <button onclick="exeCmd('insertHorizontalRule');" title="Horizontal Rule">Hr</button>
+            <button onclick="exeCmd('selectAll')" title="Select All">SelectAll</button>
+            <br><br>
+            <select name = "heading" onchange="exeAgrCmd('formatBlock',this.value)">
+                <option value="h1">H1</option>
+                <option value="h2">H2</option>
+                <option value="h3">H3</option>
+                <option value="h4">H4</option>
+                <option value="h5">H5</option>
+                <option value="h6">H6</option>
+            </select>
+
+            <select onchange='exeArgCmd("fontname",this.value)'>
+                <option value="Arial">Arial</option>
+                <option value="Comic Snas MS">Comic Sans Ms</option>
+                <option value="Courier">Courier</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Tahoma">Tahoma</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Verdana">Verdana</option>
+            </select>
+
+            <select onchange='exeArgCmd("fontSize",this.value)' >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+
+            </select>
+            <span>&nbsp; Color:</span> <input type="color" onchange='exeArgCmd("foreColor",this.value)'>&nbsp;
+            <span>BGColor: </span><input type="color" onchange='exeArgCmd("hiliteColor",this.value)'>
+
+        </div>
+
+
+        <hr>
+
+        <iframe frameborder="0" id="ifrm" name="textarea" autofocus></iframe>
+    </div>
+
+
+    <script>
+
+        textarea.document.designMode = "On";
+
+        function exeCmd(command) {
+            textarea.document.execCommand(command, false, null);
+        }
+        function exeArgCmd(command, argument) {
+            textarea.document.execCommand(command, false, argument);
+        }
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+
+}
+
+h3{
+    font-size: 38px;
+    text-decoration: underline;
+    font-style: Optima, sans-serif;
+    margin:5px;
+    padding-top:5px;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:78vh;
+    width:80vw;
+    background-color: skyblue;
+
+}
+
+.button-container{
+    border-top: none;
+    text-align: center;
+    width:100%;
+
+}
+
+button{
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+    border:1px solid #dcdcdc;
+    border: 1px solid rgb(120, 120, 120);
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:5px 18px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    margin: 20px 5px 0px 5px;
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+button:focus,button:hover,button:active{
+    outline: none;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+span{
+    font-weight: 600;
+}
+
+iframe{
+    background-color: white;
+    height:80%;
+    width:100%;
+    padding:2%;
+    border-top: 2px solid black;
+}
