@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <title>Digital Clock by Mehul Varshney</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>The Current Time is: </h2>
+        <div class="time" id="#time">
+            <div>
+                <span id="hour">00</span>
+                <span class="hrspan">Hours</span>
+            </div>
+            <div>
+                <span id="minute">00</span>
+                <span class="mnspan">Minutes</span>
+            </div>
+            <div>
+                <span id="second">00</span>
+                <span class="scspan">Seconds</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script>
+    function showTime()
+    {
+        let date = new Date();
+        let hr = date.getHours();
+        let min = date.getMinutes();
+        let sec = date.getSeconds();
+
+        //for 12 hr standard
+        if(hr==0){//condition for: midnight(0:0:0)
+            hr = 12;
+        }
+        if(hr>12){// condition after: midnoon(13:0:0)
+            hr=hr-12;
+        }
+
+        //To add 0 in prefix if number is <10;
+        hr = (hr < 10)? "0" + hr :hr;
+        min = (min < 10)? "0" + min: min;
+        sec = (sec < 10)? "0" + sec :sec;
+        
+
+        document.getElementById("hour").innerText = hr;
+        document.getElementById("minute").innerText = min;
+        document.getElementById("second").innerText = sec;
+        
+        setTimeout(showTime,1000);
+    }
+    showTime();
+</script>
+</html>
