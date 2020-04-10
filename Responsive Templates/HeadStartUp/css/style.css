@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin:0px;
+    padding:0px;
+}
+:not(na>){
+    font-family: 'Montserrat', sans-serif;
+}
+.banner{
+    background-color:rgb(90,90,90);
+    color:white;
+
+}
+.epdata{
+    background-color:rgb(240, 240, 240);
+    background-position: left;
+    color:rgb(70, 70,70);
+    box-shadow: 2px 2px 5px 3px rgba(80, 80, 80, .344);
+}
+.logohead
+{
+    font-size: 25px;
+}
+.landingpage{
+    background-color:rgb(23, 180,213);
+    color:rgb(80, 80, 80);
+    color:rgb(240, 240, 240);
+    font-size: larger;
+    background-image: url("images/bg1.jpg");
+    background-position: center;
+}
+
+.clientclass{
+    background-color: rgb(106, 106,106);
+    color:white;
+}
+.formandmap{
+    background-color:rgb(23, 180,213);
+    background-image: url("images/bg1.jpg");
+    background-position: center;
+}
+input{
+    border-radius: 5px;
+    border:1px solid  rgb(70, 70, 70);
+    height:40px;
+}
+input::placeholder{
+    padding:5%;
+}
+iframe{
+    background-image: url("images/map.png") !important;
+}
+footer{
+    background-color:rgb(59, 59, 59);
+    color:whitesmoke;
+}
+.relatedlink > a{
+    color:white;
+    text-decoration: none;
+}.relatedlink > a:hover {
+    color:rgb(210, 210, 210);
+}
+footer section>div> div >a{
+    color:white;
+    text-decoration: none;
+}
+footer section>div> div >a:hover{
+    color:rgb(110, 110,110);
+}
+hr{
+    background-color: grey;
+}
+footer section:last-of-type{
+    background-color:rgb(50, 50, 50);
+}
+small:last-of-type a{
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:770px){
+    .relatedlink{
+        text-align: left !important;
+    }
+    .logohead
+    {
+        font-size: 20px;
+    }
+    .banner{
+        display:none !important;
+    }
+    form>input:nth-child(2){
+        margin-top:20px;
+    }
+}

@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+
+}
+html,body{
+    margin:0px;
+    padding:0px;
+}
+p{
+    color:rgb(134, 154, 184);
+}
+.bgwhite{
+    background-color:white !important;
+}
+.bgcolor{
+    background-color: rgb(241, 244, 248);
+}
+.bgcolor2{
+    background-color: rgb(27, 42, 77);
+}
+.bgcolor3{
+    background-color: rgb(249, 251, 253);
+}
+.lightfontweight{
+    font-weight:400;
+}
+.lightfont2{
+    font-weight: lighter;
+}
+.bigfont{
+    font-size: larger;
+}
+.whitefont{
+    color:white !important;
+}
+.bluefont{
+    color:rgb(51, 94, 234);
+}
+
+/* --------------------------Header------------------------ */
+.navbar-brand{
+    color:rgb(51, 94, 234) !important;
+    font-weight: 500;
+    font-size: x-large;
+}
+.nav-link{
+    color:rgb(80, 102, 144) !important;
+}
+.nav-link:hover{
+    color:rgb(51, 94, 234) !important;
+}
+.landinghead{
+    font-size:40px;
+}
+.brand{
+    color:rgb(51, 94, 234);
+}
+.landingcontent{
+    color:rgb(134, 154, 184);
+    font-size: larger;
+}
+.btn-lg{
+    font-size:18px !important;
+}
+.docbtn{
+    background-color:rgb(234, 239, 253);
+    border:none;
+    color:rgb(51, 94, 234);
+}
+.docbtn:hover{
+    background-color:rgb(234, 239, 253);
+    border:none;
+    color:rgb(51, 94, 234);
+}
+/*---------------main -------------------------*/
+.fa-sliders-h,.fa-code,.fa-th-large{
+    color:rgb(51, 94, 234);
+}
+.mainhead{
+    font-weight: 400;
+}
+
+input{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0px !important;
+    opacity: 0.8;
+}
+.btn-success{
+    background-color: rgb(66, 186, 150);
+    border-color: rgb(56, 158, 127) !important;
+    color:white;
+}
+.btn-success:hover{
+    background-color: rgb(56, 158, 127);
+}
+.greenfont{
+    color: rgb(56, 158, 127);
+}
+.fa-check-circle{
+    
+    color:rgb(56, 158, 127);
+    font-size: large;
+
+}
+/* -----------Bthemes------------- */
+.fa-redo-alt,.fa-code{
+    font-size: larger;
+    color:rgb(51, 94, 234) !important;
+}
+.custfont{
+    font-size: larger;
+}
+/* ---------------Carousel--------------------- */
+.clipimg{
+    clip-path: circle(99% at 0% 50%);
+}
+.posi-rel{
+    position:relative;
+}
+.fa-arrow-circle-right,.fa-arrow-circle-left{
+    color: rgb(51, 94, 234);
+    font-size: 30px;
+}
+.fa-arrow-circle-left{
+    position: absolute;
+    left:12%;
+    z-index: 999999;
+}
+.fa-arrow-circle-right{
+    position: absolute;
+    right:5%;
+    z-index: 999999;
+}
+/* -------------dualcards ---------------*/
+
+.card-shadow{
+    background-color: white !important;
+    box-shadow:0px 0px 23px 0px rgba(0,0,0,0.16);
+}
+.tag{
+    display:inline !important;
+    padding: 5px 18px 5px 18px;
+    color:rgb(51, 94, 234);
+    font-size:small;
+    font-weight: 400;
+    background-color:rgb(243, 239, 253);
+    border-radius:20px;
+}
+
+/*-------------Can i use---------- */
+.fa-question-circle{
+    color:white;
+    font-size: x-large;
+}
+.buybtn{
+    background-color:rgb(66, 186, 150);
+}
+.buybtn:hover{
+    background-color:rgb(56, 158, 127);
+}
+/*------------ Footer---------------------------- */
+.ftrbg{
+    background-color:rgb(241, 244, 248)
+}
+.ftrfontcolor1{
+    color:rgb(99, 119, 156)
+}
+.ftricon{
+    color:rgb(134, 154, 184);
+    font-size:x-large;
+}
+.ftricon:hover{
+    color:rgb(99, 119, 156);
+}
+.ftrhead{
+    color:rgb(80, 102, 144);
+    font-size: small;
+    font-weight: 600;
+}
+.ftrlink{
+    color:rgb(134, 154, 184);
+    font-size: smaller;
+}
+.ftrlink:hover{
+    color:rgb(99, 119, 156);
+}
+.enclosingcolor{
+    color:rgb(134, 154, 184);
+    font-size: smaller;
+}
+/* -----------------------MEDIA QUERY---------------------------- */
+@media screen and (max-width:500px){
+    .landinghead{
+        font-size:30px;
+    }
+    .landingcontent{
+        font-size:large;
+    }
+    .btn-lg{
+        height: 40px;
+        font-size:15px !important;
+    }
+    h2{
+        font-size:25px;
+    }
+    .custfont{
+        font-size: inherit;
+    }
+
+}
+    @media screen and (max-width:940px){
+        .landinghead{
+            font-size:35px;
+        }
+        .landingcontent{
+            font-size:18px;
+        }
+
+    }
+
+    @media screen and (max-width:765px){
+        .clipimg{
+            clip-path: none;
+        }
+    }
