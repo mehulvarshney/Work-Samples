@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    margin:0px;
+    padding:0px;
+}
+body{
+  background-image:url("../images/ci1.jpeg");
+  height:100vh;
+  width:100vw;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  background-color:black;
+  color:white;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+i{
+    margin-right:30px;
+}
+i:last-of-type{
+    margin-right: 0px;
+}
+
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 800;
+}
+p{
+    font-size: 20px;
+    color: rgb(220, 220, 220);
+    width:50%;
+}
+small{
+  color:rgb(200,200,200);
+  font-size: large;
+}
+
+button{
+    background-color:transparent;
+    text-transform: uppercase;
+    color:white;
+    padding:12px 30px 12px 30px;
+    font-style:'Baloo Bhaina 2', cursive !important;
+    letter-spacing: 3px;
+    border-radius:50px;
+    border:2px solid white;
+    outline: none;
+    margin: 20px;
+    font-weight: 500;
+}
+button:hover{
+    background-color:rgb(240, 240,240);
+    color:black;
+    transition:0.5s;
+}
+
+
+@media (max-width: 992px) {
+    
+    i{
+        margin-right:25px;
+    }
+    .container{
+        margin-top:30px !important;
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+    h1{
+       font-size:48px;
+       letter-spacing: 6px;
+       line-height: 40px;
+       padding-top:20px;
+    }
+    p{
+        font-size: 22px;
+        width:80%;
+    }
+}
+@media (max-width: 768px) {
+    
+    i{
+        margin-right:12px;
+    }
+    .container{
+        margin-top:30px !important;
+        padding-left:10px !important;
+        padding-right:10px !important;
+    }
+    h1{
+       font-size:35px;
+       letter-spacing: 5px;
+       line-height: 40px;
+       padding-top:0px;
+    }
+    p{
+        font-size: 18px;
+        margin-bottom: 0px;
+
+    }
+    button{
+        color:white;
+        padding:8px 25px 8px 25px;
+        letter-spacing: 2px;
+        border-radius:50px;
+        border:2px solid white;
+        outline: none;
+        margin: 0px !important;
+
+    }
+}
+@media (max-width: 540px) {
+    
+  i{
+      margin-right:12px;
+  }
+  .container{
+      margin-top:25px !important;
+      padding-left:30px !important;
+      padding-right:30px !important;
+  }
+  .container:last-of-type{
+    padding-left:10px !important;
+    padding-right:10px !important;
+  }
+  h1{
+     font-size:35px;
+     letter-spacing: 2px;
+     line-height: 40px;
+     padding-top:0px;
+  }
+  p{
+      font-size: 18px;
+      margin-bottom: 20px;
+      width:100%;
+      text-align: center;
+  }
+  button{
+      color:white;
+      padding:8px 25px 8px 25px;
+      letter-spacing: 2px;
+      border-radius:50px;
+      border:2px solid white;
+      outline: none;
+      margin: 0 !important;
+
+  }
+}
+
+
+/* Bob HOVER css */
+@-webkit-keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @-webkit-keyframes hvr-bob-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes hvr-bob-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  .hvr-bob {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+  }
+  
